@@ -1,0 +1,29 @@
+/* Tailwind v4 — the @import directive pulls in all utility classes */
+@import "tailwindcss";
+
+/* Enable class-based dark mode (set in tailwind.config.ts) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Reset browser defaults */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrollbar for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure images never overflow their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
