@@ -22,11 +22,11 @@
     "noFallthroughCasesInSwitch": true,
     "exactOptionalPropertyTypes": true,
 
-    /* Path aliases for cleaner imports */
-    "ignoreDeprecations": "6.0",
-    "baseUrl": ".",
+    /* Path aliases for cleaner imports.
+     * In TS 6, paths can be used without baseUrl when moduleResolution is "bundler".
+     * Vite's resolve.alias handles the runtime side; TS handles the type side. */
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src"]
