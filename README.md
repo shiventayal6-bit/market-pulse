@@ -1,6 +1,6 @@
 # Market Pulse
 
-**[Live Demo](https://market-pulse-chi-rouge.vercel.app)** <!-- update this URL after first Vercel deploy -->
+**[Live Demo](https://market-pulse-st.vercel.app)**
 
 A production-quality crypto markets dashboard built as a portfolio project for quant/fintech internship applications. It demonstrates clean, typed React architecture, real-time data fetching with aggressive caching, and a maintainable feature-folder structure.
 
